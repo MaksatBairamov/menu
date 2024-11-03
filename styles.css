@@ -1,0 +1,21 @@
+body, html {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b1b1b; /* Колір фону для зручності читання */
+}
+
+main {
+    padding: 20px;
+    overflow: auto; /* Додаємо прокрутку для секції main */
+}
+
+.full-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Додаємо тінь для покращеного вигляду */
+    border-radius: 8px; /* Округлення країв для стилю */
+    object-fit: contain; /* Забезпечує повну видимість зображення без обрізання */
+}
